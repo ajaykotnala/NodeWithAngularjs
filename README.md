@@ -12,8 +12,7 @@ Steps to setup this project:
 
 
 # All credit goes to 
-Node.js for .NET Developers
-by Shawn Wildermuth
+ Shawn Wildermuth
 
 # Note
 This repo is not used in any proffesional project.This is just intended to use for learning and keeping high sprit of maintaining proffesionalism.
