@@ -1,0 +1,54 @@
+﻿﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>@model.title</title>
+    <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+  
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+  <link href="/css/site.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="btn btn-success navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="glyphicon glyphicon-chevron-down"></span>
+        </button>
+        <div id="logo">
+          <a href='/'>
+            <h4>The Board</h4>
+          </a>
+        </div>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav">
+            <a href="/">Home</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <section id="body" class="container">
+   <div class="page-header">
+      &nbsp;
+    </div>
+    <div class="page-header">
+      <h1>@model.title</h1>
+    </div>
+    @html.block("body")
+  </section>
+  <hr />
+  <footer class="container">
+    <p>©2008 - 2016, Ajay, Inc. or its affiliates. All rights reserved.</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
